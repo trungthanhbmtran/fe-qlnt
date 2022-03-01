@@ -1,0 +1,75 @@
+@media print {
+  @page {
+    size: A4 landscape; 
+    margin:0mm;
+  }
+}
+.table {
+  width: 100%;
+  border-top: 1px #CCC solid;
+  border-left: 1px #CCC solid;
+  margin: 20px;
+  font-size: 10px;
+  text-align: center;
+  background-color: #CCFFFF;
+  display: block;
+}
+.test{
+  font-size: 10px;
+  color: yellowgreen;
+}
+.table p {
+  margin-bottom: 0;
+}
+
+.table tr {
+  border-top: 1px #CCC solid;
+  border-left: 1px #CCC solid;
+}
+
+.table td {
+  text-align: center;
+  border: 3px solid red;
+  padding: 1px;
+  border-right: 1px #CCC solid;
+  border-bottom: 1px #CCC solid;
+}
+
+.table th {
+  border-right: 1px #CCC solid;
+  border-bottom: 1px #CCC solid;
+}
+
+.header {
+  color: #000;
+  font-weight: bold;
+  background-color: #FEFF05;
+}
+
+.blockTitle {
+  text-align: center;
+}
+
+.bg_1 {
+  background-color: #CCFFFF;
+}
+
+.bg_2 {
+  background-color: #FFCC99;
+}
+
+.bg_3 {
+  background-color: #FEFF05;
+}
+
+.textLeft {
+  text-align: left;
+}
+
+.textRight {
+  text-align: right;
+}
+
+.colPoint {
+  width: 30px;
+}
